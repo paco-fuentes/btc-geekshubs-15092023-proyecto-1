@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+
+.background-red {
+    background-color: crimson;
+}
+
+.background-cyan {
+
+    background-color: cyan;
+}
+
+.background-green {
+    background-color:lightgreen;
+}
+
+.background-orange {
+    background-color: orange;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
+
+
+
+.container-fluid {
+    height: 100vh;
+    width: 100vw;
+}
