@@ -2,90 +2,99 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- IMPORTAR TXT ANTES DEL CSS -->
-    <link href="/css/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- IMPORTAR TXT ANTES DEL CSS -->
+  <link href="/css/styles.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- CABECERA -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+  <!-- CABECERA -->
+  <nav class="navbar fixed-topnavbar-expand-lg bg-body-tertiary"> <!-- Agregado fixed top -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- INICIO CONTAINER -->
+
+  <!-- BIENVENIDA -->
+
+  <div class="container-fluid">
+
+    <div class="row row-cols-xxl-2 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-xs-1">
+
+      <div class="background-cyan">
+        <div class="card" style="width: auto">
+          <img src="../img/pizza-lego-1.jpg" class="card-img-top" alt="pizza romana">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Romana</h5>
+            <p class="card-text">Prueba nuestra pizza con sabor mediterráneo. Anchoas, aceitunas negras,
+              tomate y mozzarella.</p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
           </div>
         </div>
-      </nav>
+      </div>
 
-
-    <!-- INICIO CONTAINER -->
-    <div class="container-fluid -h100">
-
-        <!-- CONTENIDO 1 -->
-
-        <!-- <div class="row background-yellow">banner1</div> -->
-
-        <!-- CONTENIDO 2 -->
-
-        <!-- <div class="row background-red h-25">banner2</div>-->
-
-        <!-- BIENVENIDA -->
-
-        <div class="row row-cols-xxl-2 row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-xs-1 h-100">
-
-            <div class="background-cyan">
-               
-            </div>
-
-            <div class="background-green">
-               
-            </div>
-
+      <div class="background-yellow">
+        <div class="card" style="width: auto">
+          <img src="../img/pizza-lego-1.jpg" class="card-img-top" alt="pizza romana">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Romana</h5>
+            <p class="card-text">Prueba nuestra pizza con sabor mediterráneo. Anchoas, aceitunas negras,
+              tomate y mozzarella.</p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
         </div>
+      </div>
 
-        
-        <div class="row background-red">pie</div>
-
-        <!-- FIN CONTAINER -->
     </div>
 
-    <!-- PIE DE PÁGINA -->
+  </div> <!-- FIN CONTAINER -->
 
-    <nav class="navbar bg-body-tertiary">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            Bootstrap
-          </a>
-        </div>
-      </nav>
+  <!-- PIE DE PÁGINA -->
+
+  <nav class="navbar fixed-bottom bg-body-tertiary"> <!-- Agrgado fixed-bottom -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        Bootstrap
+      </a>
+    </div>
+  </nav>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
