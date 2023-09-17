@@ -1,5 +1,17 @@
 
+/* TEXT */
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+h1{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/* SLIDER */
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.068), rgb(0, 0, 0)), url(../img/bg-carousel-1.avif);
 
 
 /* --------------COLORES DE ÁREA PARA TEST----------------- */
@@ -38,3 +50,5 @@ body{
     height: 100vh;
     width: 100vw;
 } */
+
+
