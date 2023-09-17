@@ -42,11 +42,13 @@ h1, h3{
 }
 
 
-/*  BOTONES
+
 
 a{
-
+ color: darkseagreen;
 }
+
+/*  BOTONES
 
 .btn{
     border: 0;
@@ -136,6 +138,16 @@ body{
     margin-bottom: 0.5rem;
     color:white;
     box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary{
+    background-color: darkseagreen;
+    border: darkseagreen;
+}
+
+.btn-primary:hover{
+    background-color: rgb(123, 163, 123);
+    border: darkseagreen;
 }
 
 /* .menu-item .euros{
