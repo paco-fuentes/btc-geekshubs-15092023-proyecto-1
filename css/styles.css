@@ -1,4 +1,5 @@
 
+
 /* TEXT */
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
@@ -41,6 +42,29 @@ h1{
 }
 
 
+/*  BOTONES
+
+a{
+
+}
+
+.btn{
+    border: 0;
+    padding: 1rem, 2.5rem;
+}
+
+.btn-brand{
+    background-color: lightgreen;
+    transition:350ms;
+}
+
+.btn-brand:hover{
+    background-color: rgb(114, 208, 114);
+    transition:350ms;
+
+}
+ */
+
 /* --------------COLORES DE ÁREA PARA TEST----------------- */
 
 body{
@@ -79,3 +103,14 @@ body{
 } */
 
 
+/* INTRO TEXT MENU */
+
+.intro-text{
+    margin-bottom: 3rem;
+    text-align:center;
+}
+
+.intro-text-p{
+    max-width: 32rem;
+    margin: 1rem auto 0 auto;
+}
