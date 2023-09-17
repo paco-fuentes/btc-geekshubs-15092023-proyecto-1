@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
-h1{
+h1, h3{
     font-family: 'Amatic SC', cursive;
 }
 
@@ -114,3 +114,7 @@ body{
     max-width: 32rem;
     margin: 1rem auto 0 auto;
 }
+
+
+/* DIVIDER */
+
