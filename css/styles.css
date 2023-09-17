@@ -116,5 +116,20 @@ body{
 }
 
 
-/* DIVIDER */
+/* EN PAGINA MENU */
 
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color:darkseagreen;
+    box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: darkseagreen;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color:white;
+    box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
+}
