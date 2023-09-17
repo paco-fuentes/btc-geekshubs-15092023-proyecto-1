@@ -122,6 +122,8 @@ body{
     background-color: white;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:darkseagreen;
     box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1);
 }
@@ -130,6 +132,22 @@ body{
     background-color: darkseagreen;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:white;
     box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
 }
+
+/* .menu-item .euros{
+
+    block-size: auto;
+}
+ */
+
+ .shadow-on-hover{
+    transition: all 200ms;
+ }
+
+ .shadow-on-hover:hover{
+    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.1);
+ }
