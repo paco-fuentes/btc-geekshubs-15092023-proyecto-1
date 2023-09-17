@@ -8,12 +8,33 @@ h1{
 }
 
 
-/* SLIDER */
+/* SLIDER  - AJUSTES DE IMAGEN DEL CAROUSEL*/
 
 .slide-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.068), rgb(0, 0, 0)), url(../img/bg-carousel-1.avif);
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-1.png);
 
 }
+
+.slide-2{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-2.png);
+
+}
+
+.slide-3{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-3.png);
+
+}
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /* --------------COLORES DE ÁREA PARA TEST----------------- */
 
 body{
