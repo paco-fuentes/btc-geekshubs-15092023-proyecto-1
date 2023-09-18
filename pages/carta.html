@@ -23,712 +23,719 @@
 </head>
 
 <body>
-<!-- GREGADO CONTAINER MASTER CON FLUID Y PADDING 0 -->
-<div class="container-fluid p-0"> 
-  <!--     --------------- CABECERA --------------- -->
+  <!-- GREGADO CONTAINER MASTER CON FLUID Y PADDING 0 -->
+  <div class="container-fluid p-0">
+    <!--     --------------- CABECERA --------------- -->
 
-  <nav class="navbar navbar-expand-md navbar-light bg-white shadow" aria-label="Fourth navbar example">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../img/logo-trans-black-ok.png" alt="" width="150rem">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow" aria-label="Fourth navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo-trans-black-ok.png" alt="" width="150rem">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav mx-auto me-auto mb-2 mb-md-0 ">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mx-auto me-auto mb-2 mb-md-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Conócenos</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary">Hacer Pedido</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--     --------------- DIVISOR --------------- -->
+
+    <!--   <div class="b-example-divider"></div> -->
+
+    <div class="d-flex" style="height: 2rem"></div>
+
+    <!--     --------------- CARTA CABECERA--------------- -->
+
+    <section id="menu">
+      <div class="divider"></div>
+      <div class="container">
+        <div class="row">
+          <div class="column-12 intro-text">
+            <h1>Menú</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, sequi dolores similique, incidunt rerum
+              aperiam debitis, iure inventore sunt quis ipsum a? Minus eos quos saepe provident, dignissimos quisquam
+              debitis!</p>
+          </div>
+        </div>
+      </div>
+
+      <!--         -------------------- SELECTORES DEL TIPO DE COMIDA -------------------- -->
+
+
+
+      <div class="container">
+        <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-pizzas-tab" data-bs-toggle="pill" data-bs-target="#pills-pizzas"
+              type="button" role="tab" aria-controls="pills-pizzas" aria-selected="true">Pizzas</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="carta.html">Carta</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-entrantes-tab" data-bs-toggle="pill" data-bs-target="#pills-entrantes"
+              type="button" role="tab" aria-controls="pills-entrantes" aria-selected="true">Entrantes</button>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Conócenos</a>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-postres-tab" data-bs-toggle="pill" data-bs-target="#pills-postres"
+              type="button" role="tab" aria-controls="pills-postres" aria-selected="true">Postres</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas"
+              type="button" role="tab" aria-controls="pills-bebidas" aria-selected="true">Bebidas</button>
           </li>
         </ul>
-        <a href="#" class="btn btn-primary">Hacer Pedido</a>
+
+
+        <!--         -------------------- MATRIZ DE CARDS DE PLATOS -------------------- -->
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-pizzas" role="tabpanel" aria-labelledby="pills-pizzas-tab"
+            tabindex="0">
+
+            <h3>Todas nuestras pizzas</h3>
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.png" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-2 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col mt-3">
+                          <span>15 <i class="ri-money-euro-circle-line"></i></span>
+                          <!-- creada y quitada la clase euros -->
+                        </div>
+                        <div class="col text-end width: 18rem">
+                          <a href="#" class="btn btn-primary mt-4 mb-2 text">Pedir</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="tab-pane fade show" id="pills-entrantes" role="tabpanel" aria-labelledby="pills-entrantes-tab"
+            tabindex="0">
+            <h3>Un poco de picoteo</h3>
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.png" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="tab-pane fade show" id="pills-postres" role="tabpanel" aria-labelledby="pills-postres-tab"
+            tabindex="0">
+            <h3>Siempre cabe un poco más</h3>
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.png" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="tab-pane fade show" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab"
+            tabindex="0">
+            <h3>Sólo cosas líquidas</h3>
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.png" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="../img/pizza-1.webp" alt="item 1" width="100%">
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
+                      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
+                        laudantium modi fugiat.</p>
+                      <span>15 </span>
+                      <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-  </nav>
 
-  <!--     --------------- DIVISOR --------------- -->
+    </section>
 
-  <!--   <div class="b-example-divider"></div> -->
+    <!--     --------------- DIVISOR --------------- -->
 
-  <div class="d-flex" style="height: 2rem"></div>
+    <!--     <div class="b-example-divider"></div> -->
 
-  <!--     --------------- CARTA CABECERA--------------- -->
 
-  <section id="menu">
-    <div class="divider"></div>
+    <!--     --------------- FOOTER --------------- -->
+
     <div class="container">
-      <div class="row">
-        <div class="column-12 intro-text">
-          <h1>Menú</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, sequi dolores similique, incidunt rerum
-            aperiam debitis, iure inventore sunt quis ipsum a? Minus eos quos saepe provident, dignissimos quisquam
-            debitis!</p>
-        </div>
-      </div>
-    </div>
-
-    <!--         -------------------- SELECTORES DEL TIPO DE COMIDA -------------------- -->
-
-
-
-    <div class="container">
-      <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-pizzas-tab" data-bs-toggle="pill" data-bs-target="#pills-pizzas"
-            type="button" role="tab" aria-controls="pills-pizzas" aria-selected="true">Pizzas</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-entrantes-tab" data-bs-toggle="pill" data-bs-target="#pills-entrantes"
-            type="button" role="tab" aria-controls="pills-entrantes" aria-selected="true">Entrantes</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-postres-tab" data-bs-toggle="pill" data-bs-target="#pills-postres"
-            type="button" role="tab" aria-controls="pills-postres" aria-selected="true">Postres</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-bebidas-tab" data-bs-toggle="pill" data-bs-target="#pills-bebidas"
-            type="button" role="tab" aria-controls="pills-bebidas" aria-selected="true">Bebidas</button>
-        </li>
-      </ul>
-
-
-      <!--         -------------------- MATRIZ DE CARDS DE PLATOS -------------------- -->
-
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-pizzas" role="tabpanel" aria-labelledby="pills-pizzas-tab"
-          tabindex="0">
-
-          <h3>Todas nuestras pizzas</h3>
-          <div class="row gy-4">
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.png" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-        <div class="tab-pane fade show" id="pills-entrantes" role="tabpanel" aria-labelledby="pills-entrantes-tab"
-          tabindex="0">
-        <h3>Un poco de picoteo</h3>
-          <div class="row gy-4">
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.png" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-        <div class="tab-pane fade show" id="pills-postres" role="tabpanel" aria-labelledby="pills-postres-tab"
-          tabindex="0">
-          <h3>Siempre cabe un poco más</h3>
-          <div class="row gy-4">
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.png" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-
-
-        <div class="tab-pane fade show" id="pills-bebidas" role="tabpanel" aria-labelledby="pills-bebidas-tab"
-          tabindex="0">
-          <h3>Sólo cosas líquidas</h3>
-          <div class="row gy-4">
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.png" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-2.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-3.jpg" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="menu-item bg-white shadow-on-hover">
-                <img src="../img/pizza-1.webp" alt="item 1" width="100%">
-                <div class="menu-item-content p-4">
-                  <div>
-                    <h5 class="mt-1 mb-2">Pizza Milanesaa</h5>
-                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi placeat
-                      laudantium modi fugiat.</p>
-                    <span>15 </span>
-                    <span><i class="ri-money-euro-circle-line"></i></span> <!-- creada y quitada la clase euros -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!--     --------------- DIVISOR --------------- -->
-
-  <!--     <div class="b-example-divider"></div> -->
-
-
-  <!--     --------------- FOOTER --------------- -->
-
-  <div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <!--             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <!--             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
-        <a href="#">Back to top</a>
-      </ul>
+          <a href="#">Back to top</a>
+        </ul>
 
-      <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
-    </footer>
+        <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+      </footer>
+    </div>
+
   </div>
-
-</div>
 
   <!--     --------------- JAVASCRIPT BOOTSTRAP --------------- -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
