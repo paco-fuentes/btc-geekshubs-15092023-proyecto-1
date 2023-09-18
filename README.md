@@ -1,5 +1,7 @@
 # Proyecto 1 - Carta Restaurante Digital
 
+Hola mundo! : )
+
 Este es mi primer proyecto utilizando como parte del Bootcamp Fullstack Developer de Geekshubs.
 
 # Despliegue en Github Pages
