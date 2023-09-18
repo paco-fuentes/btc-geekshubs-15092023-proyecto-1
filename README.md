@@ -1,6 +1,6 @@
 # Proyecto 1 - Carta Restaurante Digital
 
-Este es mi primer proyecto utilizando HTML, CSS y Bootstrap como parte del Bootcamp Fullstack Developer de Geekshubs.
+Este es mi primer proyecto utilizando como parte del Bootcamp Fullstack Developer de Geekshubs.
 
 # Despliegue en Github Pages
 
@@ -36,7 +36,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](insertar
 
 - Paco Fuentes
 
-Este proyecto es parte del Bootcamp Fullstack Developer de Geekshubs.
-
-¡Gracias por visitar nuestro repositorio!
 
