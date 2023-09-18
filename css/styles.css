@@ -35,12 +35,12 @@ h1, h3{
 
 }
 
-.bg-cover{
+/* .bg-cover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+ */
 
 
 
@@ -140,16 +140,25 @@ body{
     box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
 }
 
+
+/* CAMBIOS EN BOTON CLASE PRIMARY */
+
 .btn-primary{
     background-color: darkseagreen;
     border: darkseagreen;
+    transition: 100ms;
 }
+
+.btn-primary:active{
+    background-color: darkseagreen !important;
+    border: darkseagreen !important;
+}
+
 
 .btn-primary:hover{
     background-color: rgb(123, 163, 123);
     border: rgb(138, 182, 138);
 }
-
 
 
 
