@@ -176,3 +176,8 @@ body{
  .shadow-on-hover:hover{
     box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.1);
  }
+
+
+/*  .about{
+    flex-direction:row;
+ }  */
