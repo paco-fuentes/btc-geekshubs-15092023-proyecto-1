@@ -2,6 +2,10 @@
 
 Este es mi primer proyecto utilizando HTML, CSS y Bootstrap como parte del Bootcamp Fullstack Developer de Geekshubs.
 
+# Despliegue en Github Pages
+
+https://paco-fuentes.github.io/btc-geekshubs-15092023-proyecto-1/ 
+
 ## Descripción del Proyecto
 
 El proyecto consiste en una página web para una pizzaería llamada "Ñum", donde se presenta una carta digital, información sobre el restaurante y una sección de inicio.
