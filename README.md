@@ -14,9 +14,9 @@ El proyecto consiste en una página web para una pizzaería llamada "Ñum", dond
 
 ## Tecnologías Utilizadas
 
-<i class="fab fa-html5"></i> HTML
-<i class="fab fa-css3"></i> CSS
-<i class="fab fa-bootstrap"></i> Bootstrap
+<i class="fa-brands fa-html5" style="color: #ff6600;"></i>
+<i class="fa-brands fa-css3-alt" style="color: #5794ff;"></i>
+<i class="fa-brands fa-bootstrap" style="color: #653aa4;"></i>
 
 - HTML
 - CSS
