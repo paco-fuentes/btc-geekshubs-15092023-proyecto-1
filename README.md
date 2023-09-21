@@ -4,7 +4,9 @@
 
 Hola mundo! : )
 
-Este es mi primer proyecto como parte del Bootcamp Fullstack Developer de Geekshubs y también mi primera página web.
+Este es mi primer proyecto como parte del Bootcamp Fullstack Developer de Geekshubs y también mi primera página web. 
+
+He creado la imagen de marca de una supuesta pizzeria que ofrece productos artesanales y de proximidad.
 
 ### Despliegue en Github Pages
 
@@ -24,7 +26,7 @@ El proyecto consiste en una página web para una pizzaería llamada "Ñum", dond
 
 **Página de Inicio.** 
 
-Presentación de la pizzería Ñum.
+Presentación de la pizzería Ñum. Se trata de la pagína de inicio con imagenes muy grandes de presentación de la pizzería dentro de un componente de carousel.
 
 ![image](./img/cap-1.png)
 ![image](./img/cap-ini-res-1.png)
@@ -32,20 +34,21 @@ Presentación de la pizzería Ñum.
 
 **Página de la Carta.** 
 
-Lista de todos los platos disponibles en el menú.
+Lista de todos los platos disponibles en el menú, ordenados en una matriz con un selector de pizzas, entrantes, postres y bebidas.
 
 ![image](./img/cap-2.png)
 ![image](./img/cap-car-res.png)
 
 **Página de About us.** 
 
-- Sobre Nosotros: Información sobre los principios y valores del restaurante.
+Información sobre los principios y valores del restaurante. Composición básica de bootstrap de fila y columna, con un gran baner arriba, con una imagen del logo creado para esta maqueta, y texto explicando los valores de la marca.
+
 ![image](./img/cap-3.png)
 ![image](./img/cap-abo-res.png)
 
 **Página de Reserva.** 
 
-- Reserva: Sección de reserva.
+Sección de reserva. Esta página en un principio era la seccion final de "Sobre nosotros" pero decidí crear otro apartado para ponerle un mapa con la etiqueta iframe que por falta de tiempo no pude incluir sin que rompiese la composición.
 
 ![image](./img/cap-4.png)
 ![image](./img/cap-res-res.png)
@@ -61,13 +64,15 @@ Lista de todos los platos disponibles en el menú.
     - Sección about por columnas y con banner.
     - Maqueta de página de reserva.
 
-- He adquirido la capacidad de afrontar un futuro diseño en bootstrap de manera más fluida.
+- He adquirido la capacidad de afrontar un futuro diseño en bootstrap de manera más fluida, el uso, conocimiento y manipulación de clases CSS, tanto creadas, como manipuladas de elementos Bootstrap.
 
 ### Mejoras
 
-Al tratarse de un proyecto de caracter muy urgente con una tecnogía nueva (Bootstrap) y no tener mucho bagage escribiendo código este me ha quedado muy sucio, algo para tener en cuenta a mejorar en siguientes proyectos.
+- Al tratarse de un proyecto de caracter muy urgente con una tecnogía nueva (Bootstrap) y no tener mucho bagage escribiendo código este me ha quedado muy sucio, algo para tener en cuenta a mejorar en siguientes proyectos.
 
-No conseguí colocar un mapa dentro de una etiqueta iframe en la sección about por falta de tiempo.
+- No conseguí colocar un mapa dentro de una etiqueta iframe en la sección about por falta de tiempo.
+
+- No conseguí investigar a tiempo la recolocación de las filas y columnas de la seccion "Sobre nosotros" en modo móvil y no me gusta que en el orden vertical de este modo se vean dos imágenes seguidas.
 
 
 ### Bugs Conocidos a la entrega del proyecto
