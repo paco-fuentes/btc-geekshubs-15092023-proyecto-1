@@ -37,14 +37,40 @@ Lista de todos los platos disponibles en el menú.
 ![image](./img/cap-2.png)
 ![image](./img/cap-car-res.png)
 
+**Página de About us.** 
+
 - Sobre Nosotros: Información sobre los principios y valores del restaurante.
 ![image](./img/cap-3.png)
 ![image](./img/cap-abo-res.png)
+
+**Página de Reserva.** 
+
 - Reserva: Sección de reserva.
+
 ![image](./img/cap-4.png)
 ![image](./img/cap-res-res.png)
 
-### Bugs Conocidos
+
+### Logros
+
+- He conseguido hacer un diseño 100% responsive cumpliendo los obejetivos que me había propuesto:
+
+    - Navbar y Footer
+    - Carousel a pantalla completa.
+    - Carta con selector de famlia de alimentos.
+    - Sección about por columnas y con banner.
+    - Maqueta de página de reserva.
+
+- He adquirido la capacidad de afrontar un futuro diseño en bootstrap de manera más fluida.
+
+### Mejoras
+
+Al tratarse de un proyecto de caracter muy urgente con una tecnogía nueva (Bootstrap) y no tener mucho bagage escribiendo código este me ha quedado muy sucio, algo para tener en cuenta a mejorar en siguientes proyectos.
+
+No conseguí colocar un mapa dentro de una etiqueta iframe en la sección about por falta de tiempo.
+
+
+### Bugs Conocidos a la entrega del proyecto
 
 1. Las flechas del selector del carousel en la pantalla de inicio se superponen al texto en modo móvil.
 2. Error en el que si hay más texto en las cards de la carta del menú, estas pierden su proporción vertical.
