@@ -2,57 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YummY ÑuM</title>
+
+  <!--     --------------- BOOTSTRAP --------------- -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--     --------------- CSS --------------- -->
+
+  <link href="./css/styles.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-    <div class="container-fluid">
-        
-        <!-- CABECERA -->
+<!-- AGREGADO CONTAINER MASTER CON FLUID Y PADDING 0 -->
+  <div class="container-fluid p-0"> 
+  
+    <!--     --------------- CABECERA --------------- -->
 
-        <div class="row background-cyan">cabecera</br>línea2</div>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow" aria-label="Fourth navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo-trans-black-ok.png" alt="" width="150rem">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- CONTENIDO 1 -->
-
-        <div class="row background-yellow h-25">banner1</div>
-
-        <!-- CONTENIDO 2 -->
-
-        <div class="row background-red h-25">banner2</div>
-
-        <!-- PLATOS -->
-
-        <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-12 row-cols-xs-6 h-100">
-            <div class="background-cyan">plato1</div>
-            <div class="background-green">plato2</div>
-            <div class="background-orange">plato3</div>
-            <div class="background-yellow">plato4</div>
-
-            <div class="background-yellow">plato5</div>
-            <div class="background-orange">plato6</div>
-            <div class="background-green">plato7</div>
-            <div class="background-cyan">plato8</div>
-
-            <div class="background-cyan">plato9</div>
-            <div class="background-green">plato10</div>
-            <div class="background-orange">plato11</div>
-            <div class="background-yellow">plato12</div>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav mx-auto me-auto mb-2 mb-md-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">Conócenos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/reserva.html">Reserva</a>
+              </li>
+          </ul>
+          <a href="./pages/carta.html" class="btn btn-primary">Hacer Pedido</a>
         </div>
+      </div>
+    </nav>
 
-        <!-- PIE DE PÁGINA -->
+  <!--     --------------- DIVISOR --------------- -->
 
-        <div class="row background-red">pie</div>
+  <!--     <div class="b-example-divider"></div> -->
+
+  <!--     --------------- CAROUSEL --------------- -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide shadow" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item text-center bg-cover bg-dark vh-100 active slide-1"> <!-- añadida la clase slide-1 -->
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="text-white"> - Bienvenido a ÑuM - </h2>
+              <h1 class="display-1 text-white">Pide a domicilio pizzas elaboradas artesanalmente</h1>
+              <a href="./pages/carta.html" class="btn btn-primary">Hacer Pedido</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center bg-cover bg-dark vh-100 slide-2"> <!-- añadida la clase slide-2 -->
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="text-white"> - Bienvenido a ÑuM - </h2>
+              <h1 class="display-1 text-white">¡En ÑuM la masa de tu pizza está en nuestras manos!</h1>
+              <a href="./pages/reserva.html" class="btn btn-primary">¡Cónocenos!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center bg-cover bg-dark vh-100 slide-3"> <!-- añadida la clase slide-3 -->
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="text-white"> - Bienvenido a ÑuM - </h2>
+              <h1 class="display-1 text-white">¿Sabías que nuestra pizza vegana está hecha con productos de proximidad?
+              </h1>
+              <a href="./pages/about.html" class="btn btn-primary">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <!--     --------------- DIVISOR --------------- -->
+
+  <!--  <div class="b-example-divider"></div>
+ -->
+  <!--     --------------- FOOTER --------------- -->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <!--             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+        <a href="#">Back to top</a>
+      </ul>
+
+      <p class="text-center text-body-secondary">© 2023 YummY ÑuM, Inc</p>
+    </footer>
+  </div>
+
+</div>
+
+  <!--     --------------- JAVASCRIPT BOOTSTRAP --------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>

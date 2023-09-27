@@ -1,5 +1,76 @@
+
+
+/* TEXT */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+h1, h3{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/* SLIDER  - AJUSTES DE IMAGEN DEL CAROUSEL*/
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.slide-1{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-1.png);
+
+}
+
+.slide-2{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-2.png);
+
+}
+
+.slide-3{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(../img/bg-carousel-wide-3.png);
+
+}
+
+/* .bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ */
+
+
+
+a{
+ color: darkseagreen;
+}
+
+/*  BOTONES
+
+.btn{
+    border: 0;
+    padding: 1rem, 2.5rem;
+}
+
+.btn-brand{
+    background-color: lightgreen;
+    transition:350ms;
+}
+
+.btn-brand:hover{
+    background-color: rgb(114, 208, 114);
+    transition:350ms;
+
+}
+ */
+
+/* --------------COLORES DE ÁREA PARA TEST----------------- */
+
 body{
-    background-color: black;
+    background-color: whitesmoke;
     margin: 0;
     padding:0;
 }
@@ -26,8 +97,87 @@ body{
 }
 
 
+/* --------------CONTAINER FLUID----------------- */
 
-.container-fluid {
+/* .container-fluid {
     height: 100vh;
     width: 100vw;
+} */
+
+
+/* INTRO TEXT MENU */
+
+.intro-text{
+    margin-bottom: 3rem;
+    text-align:center;
 }
+
+.intro-text-p{
+    max-width: 32rem;
+    margin: 1rem auto 0 auto;
+}
+
+
+/* EN PAGINA MENU */
+
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color:darkseagreen;
+    box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: darkseagreen;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color:white;
+    box-shadow: 0 0.2rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+
+/* CAMBIOS EN BOTON CLASE PRIMARY */
+
+.btn-primary{
+    background-color: darkseagreen;
+    border: darkseagreen;
+    transition: 100ms;
+}
+
+.btn-primary:active{
+    background-color: darkseagreen !important;
+    border: darkseagreen !important;
+}
+
+
+.btn-primary:hover{
+    background-color: rgb(123, 163, 123);
+    border: rgb(138, 182, 138);
+}
+
+
+
+
+/* .menu-item .euros{
+
+    block-size: auto;
+}
+ */
+
+ .shadow-on-hover{
+    transition: all 200ms;
+ }
+
+ .shadow-on-hover:hover{
+    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.1);
+ }
+
+
+/*  .about{
+    flex-direction:row;
+ }  */
